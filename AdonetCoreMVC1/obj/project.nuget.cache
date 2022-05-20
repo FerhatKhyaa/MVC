@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7xu7EKG7ywwJJepkUN0ZW276YRMt1h8cEGrsh4PUPsHrZEi00RooSEQl0JyonIDWH13gceSNr5e0Ekt4Pap+kw==",
+  "dgSpecHash": "2Q+Ik9r8VrGEG30bEMUR7hEr6Adu6E/mmaOOsCc1sn6wqXT6/+fyPTod6mTKm2UpnUpvEhQufYRyuY3+/vwy0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ferha\\Desktop\\Yeni Ado.Net MVC\\AdonetCoreMVC1\\AdonetCoreMVC1\\AdonetCoreMVC1.csproj",
+  "projectFilePath": "C:\\Users\\ferha\\Desktop\\MVC\\MVC\\AdonetCoreMVC1\\AdonetCoreMVC1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ferha\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\ferha\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

@@ -8838,11 +8838,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ferha\\Desktop\\Yeni Ado.Net MVC\\AdonetCoreMVC1\\AdonetCoreMVC1\\AdonetCoreMVC1.csproj",
+      "projectUniqueName": "C:\\Users\\ferha\\Desktop\\MVC\\MVC\\AdonetCoreMVC1\\AdonetCoreMVC1.csproj",
       "projectName": "AdonetCoreMVC1",
-      "projectPath": "C:\\Users\\ferha\\Desktop\\Yeni Ado.Net MVC\\AdonetCoreMVC1\\AdonetCoreMVC1\\AdonetCoreMVC1.csproj",
+      "projectPath": "C:\\Users\\ferha\\Desktop\\MVC\\MVC\\AdonetCoreMVC1\\AdonetCoreMVC1.csproj",
       "packagesPath": "C:\\Users\\ferha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ferha\\Desktop\\Yeni Ado.Net MVC\\AdonetCoreMVC1\\AdonetCoreMVC1\\obj\\",
+      "outputPath": "C:\\Users\\ferha\\Desktop\\MVC\\MVC\\AdonetCoreMVC1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

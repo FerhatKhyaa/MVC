@@ -1,4 +1,4 @@
-﻿namespace AdonetCoreMVC2
+﻿namespace AdonetCoreMVC2.Entities
 {
     public class Islemler
     {
@@ -17,7 +17,7 @@
         public int OgrtId { get; set; }
         public string OgrtAdSoyad { get; set; }
         public string OgrtBrans { get; set; }
-        
+
     }
     public class Dersler
     {

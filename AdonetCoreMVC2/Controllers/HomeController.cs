@@ -1,4 +1,5 @@
-﻿using AdonetCoreMVC2.Models;
+﻿using AdonetCoreMVC2.Entities;
+using AdonetCoreMVC2.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -43,13 +44,13 @@ namespace AdonetCoreMVC2.Controllers
         public ViewResult Ders()
         {
             List<Dersler> dersler = new List<Dersler> {
-            new Dersler {DersId = 1 , DersAdi = "Matematik" , DersOgretmeni = ""},
-            new Dersler {DersId = 2 , DersAdi = "Fizik" , DersOgretmeni = ""},
-            new Dersler {DersId = 3 , DersAdi = "Kimya" , DersOgretmeni = ""},
-            new Dersler {DersId = 4 , DersAdi = "Biyoloji" , DersOgretmeni = ""},
-            new Dersler {DersId = 5 , DersAdi = "Türk Dili ve Edebiyat" , DersOgretmeni = ""},
-            new Dersler {DersId = 6 , DersAdi = "Din Kültürü ve Ahlak Bilgisi" , DersOgretmeni = ""},
-            new Dersler {DersId = 7 , DersAdi = "Müzik" , DersOgretmeni = ""}
+            new Dersler {DersId = 1 , DersAdi = "Matematik" , DersOgretmeni = "Alpin Ateş"},
+            new Dersler {DersId = 2 , DersAdi = "Fizik" , DersOgretmeni = "Aylin Atılgan"},
+            new Dersler {DersId = 3 , DersAdi = "Kimya" , DersOgretmeni = "Gülten Kurt"},
+            new Dersler {DersId = 4 , DersAdi = "Biyoloji" , DersOgretmeni = "Selina Öztürk"},
+            new Dersler {DersId = 5 , DersAdi = "Türk Dili ve Edebiyat" , DersOgretmeni = "Gökçen Soysal"},
+            new Dersler {DersId = 6 , DersAdi = "Din Kültürü ve Ahlak Bilgisi" , DersOgretmeni = "Kutsal Demir"},
+            new Dersler {DersId = 7 , DersAdi = "Müzik" , DersOgretmeni = "Mesut Tekgöz"}
             };
             return View(dersler);
         }
