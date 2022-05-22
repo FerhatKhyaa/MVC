@@ -1,0 +1,25 @@
+﻿@model AdonetCoreMVC1.CalisanGetirModel
+@{
+    ViewData["Title"] = "Ornek2";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Ornek2</h1>
+
+<br />
+<br />
+<br />
+
+<h2>Çalışanlar</h2>
+@foreach (var calisan in Model.Calisan)
+{
+    <div>@calisan.Adi - @calisan.Soyadi</div>
+}
+<br />
+<br />
+<br />
+<h2>Şehirler</h2>
+@foreach (var sehir in Model.Sehirler)
+    {
+        <div>@sehir</div>
+    }

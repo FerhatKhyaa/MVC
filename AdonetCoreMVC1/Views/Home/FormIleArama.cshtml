@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "FormIleArama";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>FormIleArama</h1>
+
+@using (Html.BeginForm("AramaYap","Home")){
+    <strong>Key</strong> @Html.TextBox("key")
+    <input type="submit" value="Arama Yap"/>
+}
+

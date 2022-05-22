@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdonetCoreMVC1", "AdonetCoreMVC1\AdonetCoreMVC1.csproj", "{925A03FA-527F-42C8-A72A-0F476882DF50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdonetCoreMVC2", "AdonetCoreMVC2\AdonetCoreMVC2.csproj", "{29082B2B-F69C-407E-A556-921F1BD9F26E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdonetCoreMVC2", "AdonetCoreMVC2\AdonetCoreMVC2.csproj", "{29082B2B-F69C-407E-A556-921F1BD9F26E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdonetCoreMVC3", "AdonetCoreMVC3\AdonetCoreMVC3.csproj", "{3379B268-1756-4621-90EF-B9C90E6B5F5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{29082B2B-F69C-407E-A556-921F1BD9F26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29082B2B-F69C-407E-A556-921F1BD9F26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29082B2B-F69C-407E-A556-921F1BD9F26E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3379B268-1756-4621-90EF-B9C90E6B5F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3379B268-1756-4621-90EF-B9C90E6B5F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3379B268-1756-4621-90EF-B9C90E6B5F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3379B268-1756-4621-90EF-B9C90E6B5F5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

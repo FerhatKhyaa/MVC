@@ -1,0 +1,26 @@
+﻿@model AdonetCoreMVC1.CalisanAddViewModel
+@addTagHelper *, AdonetCoreMVC1
+
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Add</h1>
+
+
+<form asp-controller="Calisan" asp-action="Add">
+    <label asp-for="Calisan.Id"></label><br /><input asp-for="Calisan.Id"/> <br />
+    <label asp-for="Calisan.Adi"></label><br /><input asp-for="Calisan.Adi"/> <br />
+    <label asp-for="Calisan.Soyadi"></label><br /><input asp-for="Calisan.Soyadi"/> <br />
+    <label asp-for="Calisan.Maas"></label><br /><input asp-for="Calisan.Maas"/> <br />
+    <label asp-for="Calisan.Sehir"></label><br /> <select asp-for="Calisan.Sehir" asp-items="Model.sehirler"></select> <br /><br />
+    
+    <button type="submit">Kaydet</button>
+</form>
+
+
+<calisan-list></calisan-list>
+<br />
+<br />
+<parametreli-calisan-list sayi="2"></parametreli-calisan-list>

@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewData["Title"] = "RazorDemo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    int sayi = 22;
+}
+@{int sayi2 = 29;}
+<div>Birinci Sayımız : @sayi</div>
+<div>İkinci Sayımız : @sayi2</div>
+<div>admin @@ ferhatkahya.com.tr</div>
+
+@{
+    DateTime time = DateTime.Now.AddDays(-3);
+    string yil = DateTime.Now.Year.ToString();
+}
+<div> @DateTime.Now</div>
+<div> 3 Gün Öncesi: @time </div>
+<div>Bulunduğu Yıl: @yil</div>
+
+
+<h1>Razor Demo</h1>
+
+<div><h2>Döngüler</h2></div>
+<h3>For</h3>
+@{
+    int ilkSayi = 10;
+
+    for (int i = 0; i< ilkSayi; i++)
+    {
+        <div>@i</div>
+    }
+}
+
+<h3>While Döngüsü</h3>
+
+@{
+    int ikinciSayi = 20;
+    int baslangic = 0;
+
+    while(baslangic < ikinciSayi)
+    {
+        baslangic++;
+        <p>Sayılarım...</p>
+    }
+}
+
+<div><h2>Koşullar</h2></div>
+
+@{
+    if (sayi < 9)
+    {
+        <p>Koşul Doğrudur.</p>
+    }
+    else if(sayi > 11)
+    {
+        <p>Koşul : Yanlış</p>
+    }
+    else
+    {
+        <p>Sayımız 10'dur.</p>
+    }
+}
+
+@using (Html.BeginForm()){
+    <input type="text" id="isim" name="isim"/>
+    <input type="text" id="yas" name="yas"/>
+    <button type="submit">Kaydet</button>
+}
