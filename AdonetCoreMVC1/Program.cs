@@ -1,9 +1,40 @@
+using AdonetCoreMVC1.Models;
+using AdonetCoreMVC1.Services;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+#region Dependency Injection Örnekleri
+
+builder.Services.AddScoped<IHesapMakinesi, HesapMakinesiKdv18>();
+
+#endregion
+
+#region Veritabaný Connection Kodumuz ve AddDbContext Veritabanýnu tanýmlama
+
+string connection = @"Server=(localdb)\MSSQLLocalDB;Database=MusteriVt;Trusted_Connection=true";
+
+builder.Services.AddDbContext<MusteriVtContext>(options => options.UseSqlServer(connection));
+#endregion
+
+#region Razor Root Dizinimizi Tanýmlýyoruz.
+builder.Services.AddRazorPages().AddRazorPagesOptions(option => { option.RootDirectory = "/Pages"; });
+builder.Services.AddControllersWithViews();
+
+#endregion
+
+#region Session Kullanýmý 
+
+#endregion
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+#region Servis olarak build etmeden önce tanýmladýðýmýz razor sayfalarýmýzý aktif ediyoruz.
+app.MapRazorPages();
+#endregion
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -12,6 +43,12 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+
+
+
+
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

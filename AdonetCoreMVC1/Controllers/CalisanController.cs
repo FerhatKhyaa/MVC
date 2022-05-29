@@ -1,4 +1,5 @@
 ﻿using AdonetCoreMVC1.Entities;
+using AdonetCoreMVC1.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering; // SelectListItem için bu kütüphane gerekli
 
@@ -9,6 +10,18 @@ namespace AdonetCoreMVC1.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+     
+        private IHesapMakinesi _hesapmakinesi;
+
+        public CalisanController(IHesapMakinesi hesapmakinesi)
+        {
+            _hesapmakinesi = hesapmakinesi;
+        }
+
+        public string Hesapla()
+        {
+            return _hesapmakinesi.Hesapla(100).ToString();
         }
 
         public IActionResult Add()

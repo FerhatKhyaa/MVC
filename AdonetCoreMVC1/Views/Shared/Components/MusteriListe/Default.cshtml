@@ -1,0 +1,22 @@
+﻿@model AdonetCoreMVC1.ViewComponentMusteriListesi
+
+
+@{
+    Layout = null;
+}
+
+<table border="1">
+    <tr>
+        <td>Adı ve Soyadı</td>
+        <td>Telefonu</td>
+        <td>Şirket</td>
+    </tr>
+    @foreach (var m in Model.sonMusterilerim)
+    {
+               <tr>
+                   <td>@m.Adi @m.Soyadi</td>
+                   <td>@m.Tel</td>
+                   <td>@m.SirketAdi</td>
+               </tr>
+    }
+</table>

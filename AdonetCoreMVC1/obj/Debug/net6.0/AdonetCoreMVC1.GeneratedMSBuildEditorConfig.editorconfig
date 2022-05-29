@@ -15,8 +15,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ferha\Desktop\MVC\MVC\AdonetCoreMVC1
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ferha/Desktop/MVC/MVC/AdonetCoreMVC1/Pages/Ogrenci/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2dyZW5jaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ferha/Desktop/MVC/MVC/AdonetCoreMVC1/Pages/PageMusteri/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZU11c3RlcmlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ferha/Desktop/MVC/MVC/AdonetCoreMVC1/Views/Calisan/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaXNhblxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ferha/Desktop/MVC/MVC/AdonetCoreMVC1/Views/Home/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ferha/Desktop/MVC/MVC/AdonetCoreMVC1/Views/Home/FormIleArama.cshtml]
@@ -49,6 +61,30 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ferha/Desktop/MVC/MVC/AdonetCoreMVC1/Views/Home/RazorDemo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSYXpvckRlbW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ferha/Desktop/MVC/MVC/AdonetCoreMVC1/Views/Musteri/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyaVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ferha/Desktop/MVC/MVC/AdonetCoreMVC1/Views/Musteri/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyaVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ferha/Desktop/MVC/MVC/AdonetCoreMVC1/Views/Musteri/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyaVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ferha/Desktop/MVC/MVC/AdonetCoreMVC1/Views/Musteri/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyaVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ferha/Desktop/MVC/MVC/AdonetCoreMVC1/Views/Musteri/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ferha/Desktop/MVC/MVC/AdonetCoreMVC1/Views/Shared/Components/MusteriListe/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTXVzdGVyaUxpc3RlXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ferha/Desktop/MVC/MVC/AdonetCoreMVC1/Views/Shared/Error.cshtml]

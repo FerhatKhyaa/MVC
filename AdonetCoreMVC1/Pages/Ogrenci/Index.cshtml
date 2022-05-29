@@ -1,0 +1,10 @@
+﻿@page
+@model AdonetCoreMVC1.Pages.Ogrenci.IndexModel
+@{
+     ViewData["Title"] = "Öğrenci Bilgisi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Merhaba Öğrenci Bilgileri Bu sayfada Yer Alacaktır!</h1>
+<h2>Bilgilerin Çekildiği Tarih : @DateTime.Now </h2>
+<h3>Classımdan aldığım tarih bilgisi: @Model.Mesaj</h3> <!--Sayfanın ilgili modelinden veriyi çekiyor.-->

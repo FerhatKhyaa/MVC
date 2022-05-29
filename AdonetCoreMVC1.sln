@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdonetCoreMVC1", "AdonetCor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdonetCoreMVC2", "AdonetCoreMVC2\AdonetCoreMVC2.csproj", "{29082B2B-F69C-407E-A556-921F1BD9F26E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdonetCoreMVC3", "AdonetCoreMVC3\AdonetCoreMVC3.csproj", "{3379B268-1756-4621-90EF-B9C90E6B5F5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdonetCoreMVC3", "AdonetCoreMVC3\AdonetCoreMVC3.csproj", "{3379B268-1756-4621-90EF-B9C90E6B5F5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdonetCoreMVC5", "AdonetCoreMVC5\AdonetCoreMVC5.csproj", "{23A152D5-0A22-4430-AFDA-5A06F733526C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{3379B268-1756-4621-90EF-B9C90E6B5F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3379B268-1756-4621-90EF-B9C90E6B5F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3379B268-1756-4621-90EF-B9C90E6B5F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A152D5-0A22-4430-AFDA-5A06F733526C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A152D5-0A22-4430-AFDA-5A06F733526C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A152D5-0A22-4430-AFDA-5A06F733526C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A152D5-0A22-4430-AFDA-5A06F733526C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
