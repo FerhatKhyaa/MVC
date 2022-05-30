@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-#region Dependency Injection Örnekleri
+#region Dependency Injection Örnekleri (Burada yaptýðýmýz iþlem içerisine bir þey yazýlmasa dahil aksi bir durum yaþanmadýðý sürece default bir deðer olarak bunu almasý gerektiðini söylüyor.)
 
 builder.Services.AddScoped<IHesapMakinesi, HesapMakinesiKdv18>();
 
@@ -17,7 +17,7 @@ string connection = @"Server=(localdb)\MSSQLLocalDB;Database=MusteriVt;Trusted_C
 builder.Services.AddDbContext<MusteriVtContext>(options => options.UseSqlServer(connection));
 #endregion
 
-#region Razor Root Dizinimizi Tanýmlýyoruz.
+#region Razor Root Dizinimizi Tanýmlýyoruz. (Sayfalarýmýzda data verilerini kullanmayacaðýmýz sadece listeleme iþlemi yapacaðýmýz verileri tutmak ya da basit düzey bir css ve Js ile yazýlmýþ olan sayfalarý tutmak için kullanýyoruz.)
 builder.Services.AddRazorPages().AddRazorPagesOptions(option => { option.RootDirectory = "/Pages"; });
 builder.Services.AddControllersWithViews();
 
